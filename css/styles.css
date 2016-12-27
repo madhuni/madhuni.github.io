@@ -32,3 +32,14 @@ header #my-profile-pic{
 	border: 1px solid black;
 	border-radius: 50%;
 }
+
+.title {
+	padding: 5px;
+}
+.title h1 {
+	margin: 0 0;
+	font-size: 3em;
+	text-align: center;
+	text-transform: uppercase;
+	/*letter-spacing: 0.1em;*/
+}
