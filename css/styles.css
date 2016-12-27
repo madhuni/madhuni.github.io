@@ -22,6 +22,7 @@
 main,header,nav,section,footer,div,h1,h2,h3,h4,p,hr {
 	width: 100%;
 }
+/* CSS rules for the "header" starts here */
 header {
 	background-color: lightgrey;
 }
@@ -80,3 +81,5 @@ header #my-profile-pic{
 	border-radius: 50%;
 	border: 0.05em solid black;
 }
+
+/* CSS rules for the "nav-bar" starts here */
