@@ -79,12 +79,20 @@ header #my-profile-pic{
 }
 .sm-list-items {
 	display: inline-block;
+	/*width: 3.5em;
+	height: 3.5em;*/
+	padding: 0 0.5em;
+	margin-bottom: 0.5em;
+	/*border-radius: 50%;*/
+	/*border: 0.05em solid black;*/
+}
+.sm-list-items a {
+	display: inline-block;
 	width: 3.5em;
 	height: 3.5em;
 	border-radius: 50%;
 	border: 0.05em solid black;
 }
-
 /* CSS rules for the "nav-bar" starts here */
 nav {
 	justify-content: center;
