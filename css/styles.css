@@ -22,6 +22,9 @@
 main,header,nav,section,footer,div,h1,h2,h3,h4,p,hr {
 	width: 100%;
 }
+h1,h2,h3,h4,h5,h6,p,hr {
+	margin: 0;
+}
 /* CSS rules for the "header" starts here */
 header {
 	background-color: lightgrey;
@@ -105,7 +108,7 @@ nav {
 }
 .nav-menu-items a {
 	/*display: block;*/
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-decoration: none;
 	color: white;
 	vertical-align: middle;
@@ -114,4 +117,33 @@ nav {
 	cursor: pointer;
 	text-decoration: underline;
 	color: red;  /* temporary color */
+}
+
+/* CSS rules for the Section Starts Here */
+/* Fist Rules for the comman classes in all the sections goes below*/
+section {
+	justify-content: center;
+}
+section .section-title {
+	padding: 1em 1em 0.5em 1em;
+}
+.section-title h2 {
+	font-size: 2.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.section-content {
+	padding: 1em;
+}
+section hr {
+	display: block;
+}
+.hr-1 {
+	width: 50%;
+}
+.hr-2 {
+	width: 50%;
+}
+.hr-3 {
+	width: 50%;
 }
