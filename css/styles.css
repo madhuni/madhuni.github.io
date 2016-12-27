@@ -142,7 +142,7 @@ section .section-title {
 	letter-spacing: 0.08em;
 }
 .section-content {
-	padding: 1em;
+	padding: 4em 1em 1em 1em;
 }
 section hr {
 	display: block;
@@ -192,4 +192,28 @@ section hr {
 	padding: 0.5em;
 	font-size: 1.2em;
 	font-weight: bold;
+}
+/* Skill set rules starts here */
+#skills .section-content {
+	justify-content: space-around;
+}
+
+.skill-items {
+	padding: 0.5em;
+	flex-direction: row;
+	width:33%;
+	justify-content: center;
+}
+.image-icon {
+	width: 6em;
+	height: 6em;
+	display: block;
+}
+.skill-items span{
+	width: 100%;
+	padding: 0.5em;
+	text-align: center;
+	display: block;
+	font-size: 1.2em;
+	font-size: bold;
 }
