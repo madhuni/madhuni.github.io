@@ -50,3 +50,12 @@ header #my-profile-pic{
 	margin:0;
 	width: 80%;
 }
+.title-box .sub-title {
+	padding: 5px;
+}
+.sub-title h4 {
+	font-size: 1.5em;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
