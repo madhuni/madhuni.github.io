@@ -33,6 +33,9 @@ header #my-profile-pic{
 	border-radius: 50%;
 }
 
+.title-box {
+	justify-content: center;
+}
 .title {
 	padding: 5px;
 }
@@ -42,4 +45,8 @@ header #my-profile-pic{
 	text-align: center;
 	text-transform: uppercase;
 	/*letter-spacing: 0.1em;*/
+}
+.title-box hr {
+	margin:0;
+	width: 80%;
 }
