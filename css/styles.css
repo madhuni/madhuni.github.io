@@ -3,6 +3,7 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
+	font-size: 10px;
 }
 
 /* Code for the mobile devices has been started */
@@ -20,4 +21,14 @@
 }
 main,header,nav,section,footer,div,h1,h2,h3,h4,p,hr {
 	width: 100%;
+}
+header #my-profile-pic{
+	justify-content: center;
+	margin: 1.5em 0 1em 0;
+}
+#my-profile-pic img {
+	min-width: 15em;
+	min-height: 15em;
+	border: 1px solid black;
+	border-radius: 50%;
 }
