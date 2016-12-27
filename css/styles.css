@@ -164,3 +164,32 @@ section hr {
 	font-size: 1.4em;
 	line-height: 1.5;
 }
+/* Portfolio items rules starts here */
+#portfolio {
+	background-color: black;
+	color: #f7ded4 !important;
+}
+#portfolio .section-content {
+	padding-top: 4em;
+}
+.portfolio-item {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+	padding: 0 0.5em 0.5em;
+	justify-content: center;
+}
+.portfolio-item img {
+	min-width: 19em;
+	height: 13em;
+	border: 1px solid #e9967a;
+	background-color: white;
+	color: black;
+}
+.portfolio-item figcaption {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 0.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
