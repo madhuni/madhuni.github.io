@@ -83,3 +83,35 @@ header #my-profile-pic{
 }
 
 /* CSS rules for the "nav-bar" starts here */
+nav {
+	justify-content: center;
+	background-color: black;
+}
+.nav-menu {
+	flex-direction: column; 
+	/* Flex-direction should be column so that all the child elements
+	will flow in column mode*/
+	list-style: none;
+	margin: 0;
+	padding: 1em;
+	justify-content: center;
+	width: 100%;
+}
+.nav-menu-items {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding: 0.5em;
+}
+.nav-menu-items a {
+	/*display: block;*/
+	font-size: 1.2em;
+	text-decoration: none;
+	color: white;
+	vertical-align: middle;
+}
+.nav-menu-items a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: red;  /* temporary color */
+}
