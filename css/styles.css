@@ -208,6 +208,7 @@ section hr {
 	width: 6em;
 	height: 6em;
 	display: block;
+	border: 1px solid black;
 }
 .skill-items span{
 	width: 100%;
