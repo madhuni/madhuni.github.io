@@ -5,7 +5,19 @@
 	box-sizing: border-box;
 }
 
+/* Code for the mobile devices has been started */
 .container {
 	width: 100%;
     padding: 0 15px;
+}
+.flex {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+main,header,nav,section,footer,div,h1,h2,h3,h4,p,hr {
+	width: 100%;
 }
