@@ -157,12 +157,35 @@ section hr {
 	width: 50%;
 }
 /* Specific rules for the section child-elements starts here */
+#about .section-content {
+	justify-content: center;
+}
 #about {
-	background-color: lightgreen;
+	background-color: white;
 }
 .section-content .about-me-content {
+	width: 100%;
 	font-size: 1.4em;
 	line-height: 1.5;
+}
+.web-image {
+	width: 100%;
+}
+.web-image img {
+	display: block;
+	width: 22em;
+	height: 20em;
+	margin: auto;
+}
+@media screen and (min-width: 650px) {
+	.section-content .about-me-content {
+		order: 1;
+		width: 50%;
+	}
+	.web-image {
+		padding: 0 2em;
+		width: 40%;
+	}
 }
 /* Portfolio items rules starts here */
 #portfolio {
@@ -177,6 +200,22 @@ section hr {
 	margin: 0 0 1.5em 0;
 	padding: 0 0.5em 0.5em;
 	justify-content: center;
+}
+@media screen and (min-width: 450px) {
+	.portfolio-item {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 640px) {
+	.portfolio-item{
+		width: 33.33%;
+	}
+}
+@media screen and (min-width: 320px) {
+	.portfolio-item img {
+		width: 23em;
+		height: 16em;
+	}
 }
 .portfolio-item img {
 	min-width: 19em;
