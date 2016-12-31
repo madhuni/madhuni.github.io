@@ -315,7 +315,7 @@ section hr {
 .skill-items {
 	padding: 0.5em;
 	flex-direction: row;
-	width:33%;
+	/*width:33%;*/
 	justify-content: center;
 }
 
@@ -323,7 +323,8 @@ section hr {
 	width: 6em;
 	height: 6em;
 	display: block;
-	border: 1px solid black;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
 }
 
 .skill-items span{
@@ -352,18 +353,20 @@ section hr {
 
 /* Code for the "connect-session" starts here */
 #contact-me form {
+	margin: 0 auto;
 	padding: 1.6em;
 	width: 100%;
 }
 
 @media screen and (min-width: 650px) {
 	#contact-me form {
-		width: 60%;
+		width: 85%;
 	}
 
 	.contact-links {
-		width: 40%;
-		align-items: center;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
 	}
 
 }
@@ -394,20 +397,26 @@ section hr {
 }
 
 #contact-me .section-content {
+	flex-direction: column;
 	justify-content: center;
 }
 
 .contact-links {
+	width: 80%;
+	text-align: center;
+	display: block;
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 1em;
+	flex-direction: row;
 	justify-content: center;
+	/*flex-wrap: wrap;*/
 }
 
 .contact-links .contact-items {
 	display: inline-block;
-	padding: 0 1em;
-	margin-bottom: 0.5em;
+	padding: 0.5em;
+	/*margin-bottom: 0.5em;*/
 }
 
 .contact-items a {
