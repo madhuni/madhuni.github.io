@@ -131,7 +131,7 @@ header #my-profile-pic{
 /* CSS rules for the "nav-bar" starts here */
 nav {
 	justify-content: center;
-	background-color: black;
+	background-color: #222;
 }
 
 .nav-menu {
@@ -140,30 +140,35 @@ nav {
 	will flow in column mode*/
 	list-style: none;
 	margin: 0;
-	padding: 1em;
+	padding: 1em 0 1em 0;
 	justify-content: center;
 	width: 100%;
 }
 
 .nav-menu-items {
+	/*font-size: 1.4em;*/
 	display: block;
 	text-align: center;
 	width: 100%;
-	padding: 0.5em;
+	margin:0;
 }
 
 .nav-menu-items a {
-	/*display: block;*/
-	font-size: 1.4em;
+	display: block;
+	font-size: 1.5em;
+	padding: 1em;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: white;
 	vertical-align: middle;
 }
 
-.nav-menu-items a:hover {
+.nav-menu-items:hover {
 	cursor: pointer;
-	text-decoration: underline;
-	color: red;  /* temporary color */
+	/*text-decoration: underline;*/
+	/*color: red;   */
+	/*temporary color */
+	border: 1px solid white;
 }
 
 
@@ -248,7 +253,7 @@ section hr {
 
 /* Portfolio items rules starts here */
 #portfolio {
-	background-color: black;
+	background-color: #222;
 	color: #f7ded4 !important;
 }
 
