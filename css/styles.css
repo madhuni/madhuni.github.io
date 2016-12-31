@@ -308,7 +308,7 @@ section hr {
 }
 
 #skills .section-content {
-	justify-content: space-around;
+	justify-content: center;
 }
 
 
@@ -421,10 +421,34 @@ section hr {
 
 .contact-items a {
 	display: inline-block;
+	/*background-color: white;*/
+	/*width: 7em;
+	height: 7em;
+	border-radius: 50%;*/
+	/*border: 0.05em solid orange;*/
+}
+
+.fb a,
+.linkedin a {
+	background-color: white;
+}
+
+.twitter a,
+.github a{
+	background-color: black;
+}
+
+.fb a:hover,
+.linkedin a:hover, 
+.twitter a:hover,
+.github a:hover {
+	box-shadow: 0.1em 0.1em 0.3em white;
+} 	
+
+.contact-items img {
 	width: 7em;
 	height: 7em;
-	border-radius: 50%;
-	border: 0.05em solid orange;
+	/*border-radius: 50%;*/
 }
 
 /* Styles for the MODALS for the projects */
