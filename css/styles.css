@@ -11,6 +11,7 @@
 	width: 100%;
     padding: 0 10px;
 }
+
 .flex {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -19,33 +20,58 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-main,header,nav,section,footer,div,h1,h2,h3,h4,p,hr {
+
+main,
+header,
+nav,
+section,
+footer,
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+hr {
 	width: 100%;
 }
-h1,h2,h3,h4,h5,h6,p,hr {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
 	margin: 0;
 }
+
 /* CSS rules for the "header" starts here */
 header {
 	background-color: white;
 }
+
 header #my-profile-pic{
 	justify-content: center;
 	margin: 1.5em 0 1em 0;
 }
+
 #my-profile-pic img {
 	min-width: 15em;
 	min-height: 15em;
-	border: 1px solid black;
+	border: 3px solid black;
 	border-radius: 50%;
 }
 
 .title-box {
 	justify-content: center;
 }
+
 .title {
 	padding: 5px;
 }
+
 .title h1 {
 	margin: 0 0;
 	font-size: 3em;
@@ -53,22 +79,27 @@ header #my-profile-pic{
 	text-transform: uppercase;
 	/*letter-spacing: 0.1em;*/
 }
+
 .title-box hr {
 	margin:0;
 	width: 80%;
 }
+
 .title-box .sub-title {
 	padding: 5px;
 }
+
 .sub-title h4 {
 	font-size: 1.5em;
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 }
+
 .social-media-links {
 	justify-content: center;
 }
+
 .social-media-list {
 	list-style: none;
 	margin: 0;
@@ -77,6 +108,7 @@ header #my-profile-pic{
 	/*justify-content: space-around;*/
 	/*width: 60%;*/
 }
+
 .sm-list-items {
 	display: inline-block;
 	/*width: 3.5em;
@@ -86,6 +118,7 @@ header #my-profile-pic{
 	/*border-radius: 50%;*/
 	/*border: 0.05em solid black;*/
 }
+
 .sm-list-items a {
 	display: inline-block;
 	width: 3.5em;
@@ -93,11 +126,13 @@ header #my-profile-pic{
 	border-radius: 50%;
 	border: 0.05em solid black;
 }
+
 /* CSS rules for the "nav-bar" starts here */
 nav {
 	justify-content: center;
 	background-color: black;
 }
+
 .nav-menu {
 	flex-direction: column; 
 	/* Flex-direction should be column so that all the child elements
@@ -108,12 +143,14 @@ nav {
 	justify-content: center;
 	width: 100%;
 }
+
 .nav-menu-items {
 	display: block;
 	text-align: center;
 	width: 100%;
 	padding: 0.5em;
 }
+
 .nav-menu-items a {
 	/*display: block;*/
 	font-size: 1.4em;
@@ -121,111 +158,141 @@ nav {
 	color: white;
 	vertical-align: middle;
 }
+
 .nav-menu-items a:hover {
 	cursor: pointer;
 	text-decoration: underline;
 	color: red;  /* temporary color */
 }
 
+
 /* CSS rules for the Section Starts Here */
 /* Fist Rules for the comman classes in all the sections goes below*/
 section {
 	justify-content: center;
 }
+
 section .section-title {
 	padding: 1em 1em 0.5em 1em;
 }
+
 .section-title h2 {
 	font-size: 2.2em;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 }
+
 .section-content {
 	padding: 4em 1em 1em 1em;
 }
+
 section hr {
 	display: block;
 }
+
 .hr-1 {
 	width: 50%;
 	margin-bottom: 0.1em;
 }
+
 .hr-2 {
 	width: 50%;
 	margin-bottom: 0.1em;
 }
+
 .hr-3 {
 	width: 50%;
 	margin-bottom: 0.1em;
 }
+
 /* Specific rules for the section child-elements starts here */
 #about .section-content {
 	justify-content: center;
 }
+
 #about {
 	background-color: white;
 }
+
 .section-content .about-me-content {
 	width: 100%;
 	font-size: 1.4em;
 	line-height: 1.5;
 }
+
 .web-image {
 	width: 100%;
 }
+
 .web-image img {
 	display: block;
 	width: 100%;
 	/*height: 20em;*/
 	margin: auto;
 }
+
 @media screen and (min-width: 650px) {
 	.section-content .about-me-content {
 		order: 1;
 		width: 50%;
 	}
+
 	.web-image {
 		padding: 0 2em;
 		width: 40%;
 	}
+
 }
+
 /* Portfolio items rules starts here */
 #portfolio {
 	background-color: black;
 	color: #f7ded4 !important;
 }
+
 #portfolio .section-content {
 	padding-top: 4em;
 }
+
 .portfolio-item {
 	width: 100%;
 	margin: 0 0 1.5em 0;
 	padding: 0 0.5em 0.5em;
 	justify-content: center;
 }
+
 @media screen and (min-width: 450px) {
 	.portfolio-item {
 		width: 50%;
 	}
+
 }
+
 @media screen and (min-width: 640px) {
 	.portfolio-item{
 		width: 33.33%;
 	}
+
 }
+
 /*@media screen and (min-width: 320px) {
 	.portfolio-item img {
 		width: 23em;
 		height: 16em;
 	}
-}*/
+
+}
+
+*/
 .portfolio-item img {
 	width: 100%;
 	height: 70%;
 	border: 1px solid #e9967a;
 	color: black;
+	cursor: pointer;
 }
+
 .portfolio-item figcaption {
 	display: block;
 	width: 100%;
@@ -234,13 +301,16 @@ section hr {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
 /* Skill set rules starts here */
 #skills {
 	background-color: #fff;
 }
+
 #skills .section-content {
 	justify-content: space-around;
 }
+
 
 .skill-items {
 	padding: 0.5em;
@@ -248,12 +318,14 @@ section hr {
 	width:33%;
 	justify-content: center;
 }
+
 .image-icon {
 	width: 6em;
 	height: 6em;
 	display: block;
 	border: 1px solid black;
 }
+
 .skill-items span{
 	width: 100%;
 	padding: 0.5em;
@@ -262,31 +334,40 @@ section hr {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
 @media screen and (max-width:266px) {
 	.skill-items {
 		width: 50%;
 	}
+
 }
+
 @media screen and (min-width: 401px) {
 	.skill-items {
 		width: 25%;
 	}
+
 }
+
 
 /* Code for the "connect-session" starts here */
 #contact-me form {
 	padding: 1.6em;
 	width: 100%;
 }
+
 @media screen and (min-width: 650px) {
 	#contact-me form {
 		width: 60%;
 	}
+
 	.contact-links {
 		width: 40%;
 		align-items: center;
 	}
+
 }
+
 #contact-me form .input-area {
 	display: block;
 	width: 100%;
@@ -295,6 +376,7 @@ section hr {
 	padding: 0.6em 1.2em;
 	font-size: 1.4em;
 }
+
 #contact-me form .fill-text {
 	display: block;
 	width: 100%;
@@ -303,27 +385,31 @@ section hr {
 	padding: 0.6em 1.2em;
 	font-size: 1.4em;
 	resize: none;
-
 }
+
 #contact-me {
 	/*background-color: #e9967a;*/
 	background-color: black;
 	color: #fff;
 }
+
 #contact-me .section-content {
 	justify-content: center;
 }
+
 .contact-links {
 	list-style: none;
 	margin: 0;
 	padding: 1em;
 	justify-content: center;
 }
+
 .contact-links .contact-items {
 	display: inline-block;
 	padding: 0 1em;
 	margin-bottom: 0.5em;
 }
+
 .contact-items a {
 	display: inline-block;
 	width: 7em;
@@ -339,14 +425,17 @@ section hr {
 	height: 30%;
 	margin: auto;
 }
+
 .project-modal .modal-body p{
 	padding: 1em;
 	font-size: 1.4em;
 	line-height: 1.5;
 }
+
 .project-modal .modal-header .modal-title {
 	font-size: 1.8em;
 }
+
 /* Overwriting the code for <hr> which is affecting due to
 Bootstrap.css */
 hr {
@@ -354,14 +443,16 @@ hr {
 }
 
 /* Behaviour on the larger screen */
-
 @media screen and (min-width:980px) {
 	main {
 		width: 980px;
 		margin: 0 auto;
 		box-shadow: 20px 20px 30px;
 	}
+
 	body {
 		background-color: lightgray;
 	}
+
 }
+
