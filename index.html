@@ -7,14 +7,12 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/styles.css">
-	<script src="./js/jquery-3.1.1.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
 	<main class="flex">
 		<header class="container flex">
 			<div id="my-profile-pic" class="flex">
-				<img src="http://lorempixel.com/150/150" alt="Profile Picture">
+				<img src="./img/my-profile-pic.jpg" alt="Profile Picture">
 			</div>
 			<div class="title-box flex">
 				<div class="title">
@@ -27,10 +25,26 @@
 			</div><!-- End of title-box -->
 			<div class="social-media-links flex">
 				<ul class="social-media-list flex">
-					<li class="sm-list-items"><a href="#">FB</a></li>
-					<li class="sm-list-items"><a href="#">FB</a></li>
-					<li class="sm-list-items"><a href="#">FB</a></li>
-					<li class="sm-list-items"><a href="#">FB</a></li>
+					<li class="sm-list-items">
+						<a href="#">
+							<img src="./img/social-media-logo/git_logo_.png">
+						</a>
+					</li>
+					<li class="sm-list-items">
+						<a href="#">
+							<img src="./img/social-media-logo/fb-logo.svg">
+						</a>
+					</li>
+					<li class="sm-list-items">
+						<a href="#">
+							<img src="./img/social-media-logo/Twitter_bird_logo_2012 (1).svg">
+						</a>
+					</li>
+					<li class="sm-list-items">
+						<a href="#">
+							<img src="./img/social-media-logo/linkedin.svg">
+						</a>
+					</li>
 				</ul>
 			</div><!-- End of .social-media-links -->
 		</header><!-- End of Header -->
@@ -78,15 +92,15 @@
 			<hr class="hr-3">
 			<div class="section-content flex">
 				<figure class="portfolio-item flex">
-					<img src="http://lorempixel.com/190/130" alt="Portfolio Image" data-toggle="modal" data-target="#project1">
+					<img src="http://lorempixel.com/500/250" alt="Portfolio Image" data-toggle="modal" data-target="#project1">
 					<figcaption>My Portfolio project</figcaption>
 				</figure>
 				<figure class="portfolio-item flex">
-					<img src="http://lorempixel.com/190/130" alt="Resume Image" data-toggle="modal" data-target="#project2">
+					<img src="http://lorempixel.com/500/250" alt="Resume Image" data-toggle="modal" data-target="#project2">
 					<figcaption>My Resume</figcaption>
 				</figure>
 				<figure class="portfolio-item flex">
-					<img src="http://lorempixel.com/190/130" alt="Game Image" data-toggle="modal" data-target="#project3">
+					<img src="http://lorempixel.com/500/250" alt="Game Image" data-toggle="modal" data-target="#project3">
 					<figcaption>Arcade Game Clone</figcaption>
 				</figure>
 			</div>
@@ -100,27 +114,27 @@
 			<hr class="hr-3">
 			<div class="section-content flex">
 				<div class="skill-items flex">
-					<img src="./img/Boostrap_logo.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/Boostrap_logo.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">Bootstrap</span>	
 				</div>
 				<div class="skill-items flex">
-					<img src="./img/html5.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/html5.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">HTML-5</span>
 				</div>
 				<div class="skill-items flex">
-					<img src="./img/css-3_without_heading.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/css-3_without_heading.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">CSS-3</span>
 				</div>
 				<div class="skill-items flex">
-					<img src="./img/JavaScript_logo_2.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/JavaScript_logo_2.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">Javascript</span>	
 				</div>
 				<div class="skill-items flex">
-					<img src="./img/jquery.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/jquery.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">JQuery</span>	
 				</div>
 				<div class="skill-items flex">
-					<img src="./img/Ei-sc-github.svg" alt="technology log" class="image-icon">
+					<img src="./img/web-tech-logo/Ei-sc-github.svg" alt="technology log" class="image-icon">
 					<span class="skill-description">Git/GitHub</span>
 				</div>
 			</div><!-- section-content ends here -->
@@ -141,22 +155,22 @@
 				<ul class="contact-links flex">
 					<li class="contact-items github">
 						<a href="#">
-							<img src="./img/git_logo_.png">
+							<img src="./img/social-media-logo/git_logo_.png">
 						</a>
 					</li>
 					<li class="contact-items linkedin">
 						<a href="#">
-							<img src="./img/linkedin.svg">
+							<img src="./img/social-media-logo/linkedin.svg">
 						</a>
 					</li>
 					<li class="contact-items fb">
 						<a href="#">
-							<img src="./img/fb-logo.svg">	
+							<img src="./img/social-media-logo/fb-logo.svg">	
 						</a>
 					</li>
 					<li class="contact-items twitter">
 						<a href="#">
-							<img src="./img/Twitter_bird_logo_2012 (1).svg">
+							<img src="./img/social-media-logo/Twitter_bird_logo_2012 (1).svg">
 						</a>
 					</li>
 				</ul>
@@ -221,5 +235,8 @@
             </div>
         </div>
     </div>
+    <!-- Adding JS file needed for Bootstrap Modal to work -->
+    <script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
