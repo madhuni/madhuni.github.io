@@ -53,13 +53,14 @@ header {
 }
 
 header #my-profile-pic{
+	flex-direction: row;
 	justify-content: center;
 	margin: 1.5em 0 1em 0;
 }
 
 #my-profile-pic img {
-	min-width: 15em;
-	min-height: 15em;
+	min-width: 25em;
+	min-height: 25em;
 	border: 3px solid black;
 	border-radius: 50%;
 }
