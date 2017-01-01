@@ -59,8 +59,8 @@ header #my-profile-pic{
 }
 
 #my-profile-pic {
-	max-width: 25em;
-	max-height: 25em;
+	width: 25em;
+	height: 25em;
 	display: block;
 	border-radius: 50%;
 	border: 0.1em solid black;
