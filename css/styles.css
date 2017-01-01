@@ -477,8 +477,8 @@ section hr {
 .contact-items a {
 	display: inline-block;
 	/*background-color: white;*/
-	width: 6em;
-	height: 6em;
+	width: 5em;
+	height: 5em;
 	/*border-radius: 50%;*/
 	/*border: 0.05em solid orange;*/
 }
@@ -507,10 +507,18 @@ section hr {
 }
 
 /* Styles for the MODALS for the projects */
+.modal-body {
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.project-modal .modal-body figure {
+	width: 100%;
+}
+
 .project-modal .modal-body img{
+	border-radius: 5%;
 	display: block;
-	width: 80%;
-	height: 20%;
 	margin: auto;
 }
 
@@ -531,9 +539,9 @@ hr {
 }
 
 /* Behaviour on the larger screen */
-@media screen and (min-width:980px) {
+@media screen and (min-width:1024px) {
 	main {
-		width: 980px;
+		width: 1024px;
 		margin: 0 auto;
 		box-shadow: 20px 20px 30px;
 	}
