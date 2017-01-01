@@ -49,7 +49,15 @@ hr {
 
 /* CSS rules for the "header" starts here */
 header {
-	background-color: white;
+	background-color: #222;
+	color: white;
+	/*background-image: url("../img/web-dev-img/cover-img-4.png");*/
+	/*background-size: 100%;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background-repeat: no-repeat;*/
+	/*opacity: 0.8;*/
+	/*color: white;*/
 }
 
 header #my-profile-pic{
@@ -153,6 +161,7 @@ header #my-profile-pic{
 nav {
 	justify-content: center;
 	background-color: #222;
+	border-top:0.1em solid white;
 }
 
 .nav-menu {
