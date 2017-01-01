@@ -308,11 +308,13 @@ section hr {
 .project-image {
 	width: 360px;
 	height: 250px;
-	background-image: url("../img/web-dev-img/web-design-image-1.svg");
+	background-image: url("../img/web-dev-img/web-build-prog-web-apps.svg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: auto;
+	border: 1px solid black;
+	border-radius: 2em;
 }
 
 /* Sample Media query for the Portfolio item*/
