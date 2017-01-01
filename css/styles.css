@@ -304,14 +304,58 @@ section hr {
 	justify-content: center;
 }
 
-.portfolio-item img {
-	width: 100%;
-	height: 85%;
+/* Adding the test style for the test-div*/
+.project-image {
+	width: 360px;
+	height: 250px;
+	background-image: url("../img/web-dev-img/web-design-image-1.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+/* Sample Media query for the Portfolio item*/
+
+/*@media screen and (min-width: 720px) {
+	.portfolio-item {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.portfolio-item {
+		width: 33.33%;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.project-image {
+		width: 360px;
+		margin: auto;
+	}
+}
+*/
+
+/****** Commenting the CSS rules for the img item used previously
+in the portfolio section******/
+
+/*.portfolio-item img {
+	max-width: 25em;
+	max-height: 20em;
 	border: 0.2em solid #e9967a;
-	border-radius: 5%;
+	border-radius: 2em;
 	color: black;
 	cursor: pointer;
 }
+*/
+/* We can give the relative width of the images so that
+	it will vary with the size*/
+	/*width: 85%;
+	height: 85%;*/
+
+	/*If we will give a fixed width to the img then it will
+	remain fixed while increasing or decreasing the viewport*/
 
 .portfolio-item figcaption {
 	display: block;
@@ -505,9 +549,9 @@ hr {
 }
 
 /* Behaviour on the larger screen */
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1200px) {
 	main {
-		width: 1024px;
+		width: 1200px;
 		margin: 0 auto;
 		box-shadow: 20px 20px 30px;
 	}
