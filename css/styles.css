@@ -393,6 +393,7 @@ section hr {
 
 /* Code for the "connect-session" starts here */
 #contact-me form {
+	color: black;
 	margin: 0 auto;
 	padding: 1.6em;
 	width: 100%;
