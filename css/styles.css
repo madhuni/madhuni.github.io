@@ -306,8 +306,8 @@ section hr {
 
 /* Adding the test style for the test-div*/
 .project-image {
-	width: 350px;
-	height: 250px;
+	width: 35em;
+	height: 23em;
 	background-image: url("http://lorempixel.com/350/250");
 	/*background-size: 100%;*/
 	/* It will just make the image visible at full width */
@@ -574,14 +574,14 @@ hr {
 }
 
 /* Code for the small devices starts here*/
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 359px){
 	.project-image {
 		width: 26em;
 		height: 16em;
 	}
 }
 /* Code for the medium devices starts here*/
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 425px){
 	.project-image {
 		width: 30em;
 		height: 20em;
@@ -590,6 +590,15 @@ hr {
 /* Code for the large devices starts here */
 
 /* Code for the tablet starts here*/
+@media screen and (min-width: 768px) {
+ 	.portfolio-item {
+ 		width: 50%;
+ 	}
 
+ 	.skill-items {
+ 		width: 20%;
+ 	}
+ } 
+	
 /* Code for the Laptop and the big screen starts here*/
 
