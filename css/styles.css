@@ -579,7 +579,12 @@ hr {
 
 	.skill-items {
 		width: 30%;
-	}	
+	}
+
+	.contact-items a {
+		width: 4em;
+		height: 4em;
+	}
 }
 /* Code for the large devices starts here */
 @media screen and (min-width: 426px) {
