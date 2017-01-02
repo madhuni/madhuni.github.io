@@ -308,13 +308,21 @@ section hr {
 .project-image {
 	width: 360px;
 	height: 250px;
-	background-image: url("../img/web-dev-img/web-build-prog-web-apps.svg");
-	background-size: 100%;
+	background-image: url("../img/web-dev-img/menu-tile.jpg");
+	/*background-size: 100%;*/
+	/* It will just make the image visible at full width */
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: auto;
-	border: 1px solid black;
 	border-radius: 2em;
+	overflow: hidden; /* It will hide the overflow portion of the image*/
+	cursor: pointer;
+}
+
+.project-image:hover {
+	border: 0.1em solid black;
+	box-shadow: 0 0.1em 0.5em 0.4em black;
+	cursor: pointer;
 }
 
 /* Sample Media query for the Portfolio item*/
