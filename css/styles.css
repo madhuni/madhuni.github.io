@@ -160,27 +160,27 @@ header #my-profile-pic{
 
 /* CSS rules for the "nav-bar" starts here */
 nav {
-	justify-content: center;
+	/*justify-content: center;*/
 	background-color: #222;
 	border-top:0.1em solid white;
 }
 
 .nav-menu {
-	flex-direction: column; 
+	/*flex-direction: column; */
 	/* Flex-direction should be column so that all the child elements
 	will flow in column mode*/
 	list-style: none;
 	margin: 0;
 	padding: 1em 0 1em 0;
-	justify-content: center;
-	width: 100%;
+	/*justify-content: center;*/
+	/*width: 100%;*/
 }
 
 .nav-menu-items {
 	/*font-size: 1.4em;*/
 	display: block;
 	text-align: center;
-	width: 100%;
+	/*width: 100%;*/
 	margin:0;
 }
 
@@ -194,7 +194,7 @@ nav {
 	vertical-align: middle;
 }
 
-.nav-menu-items:hover {
+.nav-menu-items a:hover {
 	cursor: pointer;
 	/*text-decoration: underline;*/
 	/*color: red;   */
@@ -590,6 +590,26 @@ hr {
 
 /* Code for the tablet starts here*/
 @media screen and (min-width: 768px) {
+	.nav-menu {
+		text-align: center;
+		padding: 0;
+	}
+
+	.nav-menu-items {
+		display: inline-block;
+	}
+
+	.nav-menu-items a {
+		display: inline-block;
+	}
+	
+	.nav-menu-items a:hover {
+		border: 0;
+		color: black;
+		font-weight: bold;
+		background-color: lightgray;
+	}
+
  	.portfolio-item {
  		width: 50%;
  	}
