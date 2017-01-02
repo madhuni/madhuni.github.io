@@ -574,7 +574,12 @@ hr {
 }
 
 /* Code for the small devices starts here*/
-
+@media screen and (min-width: 320px) {
+	.project-image {
+		width: 26em;
+		height: 16em;
+	}
+}
 /* Code for the medium devices starts here*/
 @media screen and (min-width: 360px) {
 	.project-image {
