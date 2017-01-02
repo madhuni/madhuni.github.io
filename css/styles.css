@@ -306,14 +306,15 @@ section hr {
 
 /* Adding the test style for the test-div*/
 .project-image {
-	width: 360px;
+	width: 350px;
 	height: 250px;
-	background-image: url("../img/web-dev-img/menu-tile.jpg");
+	background-image: url("http://lorempixel.com/350/250");
 	/*background-size: 100%;*/
 	/* It will just make the image visible at full width */
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: auto;
+	border:0.1em solid black;
 	border-radius: 2em;
 	overflow: hidden; /* It will hide the overflow portion of the image*/
 	cursor: pointer;
