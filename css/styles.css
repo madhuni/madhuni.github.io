@@ -281,7 +281,7 @@ section hr {
 
 	.web-image {
 		padding: 0 2em;
-		width: 70%;
+		width: 50%;
 	}
 
 }
@@ -572,4 +572,19 @@ hr {
 	}
 
 }
+
+/* Code for the small devices starts here*/
+
+/* Code for the medium devices starts here*/
+@media screen and (min-width: 360px) {
+	.project-image {
+		width: 30em;
+		height: 20em;
+	}	
+}
+/* Code for the large devices starts here */
+
+/* Code for the tablet starts here*/
+
+/* Code for the Laptop and the big screen starts here*/
 
