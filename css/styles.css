@@ -356,13 +356,12 @@ in the portfolio section******/
 .skill-items {
 	padding: 0.5em;
 	flex-direction: row;
-	/*width:33%;*/
 	justify-content: center;
 }
 
 .image-icon {
-	max-width: 6em;
-	max-height: 6em;
+	max-width: 4.5em;
+	max-height: 4.5em;
 	display: block;
 	margin: 0 auto;
 	/*border: 1px solid black;*/
