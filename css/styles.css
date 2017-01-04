@@ -116,6 +116,23 @@ header #my-profile-pic{
 	text-transform: uppercase;
 }
 
+/* Rules for the Hamburger Diagram starts here */
+.navbar-toggle {
+	display: inline-block;
+	margin: 1.5em auto 1.5em;
+	padding: 0;
+	text-align: center;
+}
+
+.navbar-toggle .fa {
+	border: 0.1em solid lightgray;
+	border-radius: 0.3em;
+	padding: 0.1em 0.3em; 
+	cursor: pointer;
+	color: lightgray;
+	font-size: 2.5em;
+}
+
 .social-media-links {
 	justify-content: center;
 }
@@ -473,8 +490,8 @@ in the portfolio section******/
 .contact-items a {
 	display: inline-block;
 	/*background-color: white;*/
-	width: 5em;
-	height: 5em;
+	width: 3.5em;
+	height: 3.5em;
 	/*border-radius: 50%;*/
 	/*border: 0.05em solid orange;*/
 }
@@ -540,6 +557,7 @@ hr {
 	.skill-items {
 		width: 50%;
 	}
+
 }
 /* Code for the medium devices starts here*/
 @media screen and (min-width: 360px) and (max-width: 425px){
@@ -558,10 +576,25 @@ hr {
 	.skill-items {
 		width: 20%;
 	}
+
+	.contact-items a {
+		width: 4.5em;
+		height: 4.5em;
+	}
+
 }
 
 /* Code for the tablet starts here*/
 @media screen and (min-width: 768px) {
+	#collapsable-nav {
+		border-top: 0.1em solid white;
+		width: 100%;
+	}
+	
+	.navbar-toggle {
+		display: none !important;
+	}
+
 	.nav-menu {
 		text-align: center;
 		padding: 0;
@@ -588,6 +621,11 @@ hr {
 	
 	#contact-me form {
 		width: 75%;
+	}
+
+	.contact-items a {
+		width: 5em;
+		height: 5em;
 	}
 
  } 
