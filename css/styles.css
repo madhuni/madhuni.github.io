@@ -398,14 +398,11 @@ in the portfolio section******/
 	margin: 0 auto;
 	padding: 1.6em;
 	width: 100%;
+	max-width: 58em;
 }
 
 /* Minor breakpoint for the "contact-me" section */
 @media screen and (min-width: 650px) {
-	#contact-me form {
-		width: 85%;
-	}
-
 	.contact-links {
 		width: 100%;
 		text-align: center;
@@ -619,9 +616,9 @@ hr {
  		width: 15%;
  	}
 	
-	#contact-me form {
+	/*#contact-me form {
 		width: 75%;
-	}
+	}*/
 
 	.contact-items a {
 		width: 5em;
@@ -633,9 +630,6 @@ hr {
 /* Code for the Laptop and the big screen starts here*/
 @media screen and (min-width: 1134px) {
 
-	#contact-me form {
-		max-width: 80em;
-	}
 }
 
 /* Behaviour on the larger screen */
