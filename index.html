@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -47,8 +48,14 @@
 					</li>
 				</ul>
 			</div><!-- End of .social-media-links -->
+			
+			<!-- Markup for the Hamburger Diagram -->
+			<div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expended="false"">
+				<i class="fa fa-bars"></i>
+			</div><!-- hamburger is made using the fonx-awesome "bars" font -->
+
 		</header><!-- End of Header -->
-		<nav>
+		<nav id="collapsable-nav" class="collapse navbar-collapse">
 			<ul class="nav-menu">
 				<li class="nav-menu-items">
 					<a href="#about">About</a>
