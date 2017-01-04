@@ -51,7 +51,6 @@ hr {
 header {
 	background-color: #222;
 	color: white;
-	/*background-image: url("../img/web-dev-img/cover-img-4.png");*/
 	/*background-size: 100%;*/
 	/*width: 100%;*/
 	/*height: 100%;*/
@@ -438,8 +437,15 @@ in the portfolio section******/
 }
 
 #contact-me .section-content {
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
+}
+
+.connect-msg {
+	width: 100%;
+	padding: 1em;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .contact-links {
@@ -447,7 +453,7 @@ in the portfolio section******/
 	text-align: center;
 	display: block;
 	list-style: none;
-	margin: 4em auto 4em;
+	margin: 0 auto 4em;
 	padding: 1em;
 	flex-direction: row;
 	justify-content: center;
@@ -458,6 +464,10 @@ in the portfolio section******/
 	display: inline-block;
 	padding: 0.5em 1.5em;
 	/*margin-bottom: 0.5em;*/
+}
+
+#contact-me .section-content hr {
+	width: 60%;
 }
 
 .contact-items a {
