@@ -283,6 +283,7 @@ section hr {
 .web-image img {
 	display: block;
 	width: 100%;
+	max-width: 35em;
 	/*height: 20em;*/
 	margin: 0 auto;
 }
@@ -317,26 +318,27 @@ section hr {
 	width: 100%;
 	padding: 0.5em 0.7em 0.5em;
 	margin-bottom: 3em;
-	/*min-width: auto;*/
-	/*max-width: 31.4em;*/
-	height: auto;
+	min-height: 0.1em;
 	justify-content: center;
 	/*align-items: center;*/
 }
 
-.project-item img {
-	display: block;
-	width: 100%;
-	max-width: 31.4em;
-	min-width: auto;
-	height: auto;
-	max-height: 20em;
-	border: 1px solid black;
+.image-container {
+	margin: 0 auto;
+	max-width: 35em;
+	overflow: hidden;
 	border-radius: 2em;
-	margin: 0 auto 0.5em;
+	border: 1px solid black;
 }
 
-.project-item img:hover {
+.project-item img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.project-item .image-container:hover {
 	border: 0.1em solid black;
 	box-shadow: 0 0.1em 0.5em 0.4em black;
 	cursor: pointer;
@@ -358,10 +360,10 @@ section hr {
 }
 @media screen and (max-width: 1023px) {
 	.project-title {
-		display: inline;
+		display: block;
 		font-size: 1.8em;
 		padding: 0.5em;
-		border-bottom: 0.1em solid white;
+		text-align: center;
 	}
 
 	.project-detail {
@@ -378,10 +380,15 @@ section hr {
 	.project-item {
 		width: 100%;
 	}
-
-	.project-item img {
+	
+	.image-container {
 		width: 50%;
 		margin: 0;
+	}
+
+	.project-item img {
+		width: 100%;
+		max-width: 35em;
 	}
 
 	.project-item figcaption {
@@ -401,6 +408,7 @@ section hr {
 		font-size: 1.4em;
 		font-weight: normal;
 		font-style: italic;
+		line-height: 1.6;
 	}
 }
 
