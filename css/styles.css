@@ -586,22 +586,13 @@ in the portfolio section******/
 .modal-body {
 	flex-wrap: wrap;
 	flex-direction: column;
-}
-
-.project-modal .modal-body figure {
 	width: 100%;
-}
-
-.project-modal .modal-body img{
-	border-radius: 5%;
-	display: block;
-	margin: auto;
 }
 
 .project-modal .modal-body p{
 	padding: 1em;
-	font-size: 1.4em;
-	line-height: 1.5;
+	font-size: 1.5em;
+	line-height: 1.6;
 }
 
 .project-modal .modal-header .modal-title {
