@@ -340,7 +340,7 @@ section hr {
 
 .project-item .image-container:hover {
 	border: 0.1em solid black;
-	box-shadow: 0 0.1em 0.5em 0.4em black;
+	box-shadow: 0 0.1em 0.5em 0.4em lightgray;
 	cursor: pointer;
 }
 
