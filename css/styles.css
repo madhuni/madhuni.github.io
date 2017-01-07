@@ -564,8 +564,10 @@ in the portfolio section******/
 	background-color: white;
 }
 
-.twitter a,
-.github a{
+.github a {
+	background-color: #00abf1;
+}
+.twitter a{
 	background-color: #222;
 }
 
