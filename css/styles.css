@@ -325,7 +325,7 @@ section hr {
 
 .image-container {
 	margin: 0 auto;
-	max-width: 35em;
+	max-width: 30em;
 	overflow: hidden;
 	border-radius: 2em;
 	border: 1px solid black;
@@ -388,7 +388,7 @@ section hr {
 
 	.project-item img {
 		width: 100%;
-		max-width: 35em;
+		max-width: 30em;
 	}
 
 	.project-item figcaption {
