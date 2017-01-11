@@ -160,8 +160,13 @@ header #my-profile-pic{
 	display: inline-block;
 	width: 3.5em;
 	height: 3.5em;
-	/*border-radius: 50%;*/
+	border-radius: 100%;
 	/*border: 0.05em solid black;*/
+}
+
+.sm-list-items a:hover {
+	position: relative;
+	top: -0.5em;
 }
 
 .sm-list-items a img {
@@ -171,7 +176,7 @@ header #my-profile-pic{
 	height: 100%;
 	/*display: block;*/
 	/*margin: 0.35em auto;*/
-	/*border-radius: 50%;*/
+	border-radius: 100%;
 }
 
 /* CSS rules for the "nav-bar" starts here */
@@ -555,20 +560,29 @@ in the portfolio section******/
 	/*background-color: white;*/
 	width: 3.5em;
 	height: 3.5em;
-	/*border-radius: 50%;*/
+	border-radius: 100%;
 	/*border: 0.05em solid orange;*/
+}
+
+.contact-items img {
+	border-radius: 100%;
 }
 
 .fb a,
 .linkedin a {
-	background-color: white;
+	/*background-color: white;*/
 }
 
 .github a {
 	background-color: #00abf1;
 }
 .twitter a{
-	background-color: #222;
+	/*background-color: #222;*/
+}
+
+.contact-items a:hover {
+	position: relative;
+	top: -0.5em;
 }
 
 /*.fb a:hover,
