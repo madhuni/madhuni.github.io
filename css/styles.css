@@ -208,14 +208,14 @@ nav {
 	text-transform: uppercase;
 	color: white;
 	vertical-align: middle;
+	font-weight: 500;
 }
 
 .nav-menu-items a:hover {
+	color: black;
+	background-color: lightgray;
 	cursor: pointer;
-	/*text-decoration: underline;*/
-	/*color: red;   */
-	/*temporary color */
-	border: 1px solid white;
+	font-weight: 500;
 }
 
 
@@ -665,9 +665,8 @@ hr {
 	}
 	
 	.nav-menu-items a:hover {
-		border: 0;
 		color: black;
-		font-weight: bold;
+		font-weight: 500;
 		background-color: lightgray;
 	}
 
