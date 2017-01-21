@@ -234,6 +234,11 @@ nav {
 	font-weight: 500;
 }
 
+.nav-menu-items a:active {
+	background-color: lightgray;
+	font-weight: 500;
+	color: black;
+}
 
 /* CSS rules for the Section Starts Here */
 /* Fist Rules for the comman classes in all the sections goes below*/
@@ -344,7 +349,7 @@ section hr {
 	max-width: 30em;
 	overflow: hidden;
 	border-radius: 2em;
-	border: 1px solid black;
+	border: 1px solid transparent;
 }
 
 .project-item img {
