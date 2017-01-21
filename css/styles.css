@@ -623,6 +623,12 @@ in the portfolio section******/
 	line-height: 1.6;
 }
 
+.project-modal .modal-header {
+	background-color: #222;
+	color: #fff;
+	padding: 15px;
+}
+
 .project-modal .modal-header .modal-title {
 	font-size: 1.8em;
 }
