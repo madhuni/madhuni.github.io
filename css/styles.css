@@ -102,7 +102,7 @@ header #my-profile-pic{
 	font-size: 3em;
 	text-align: center;
 	text-transform: uppercase;
-	/*letter-spacing: 0.1em;*/
+	letter-spacing: 0.03em;
 }
 
 .title-box hr {
@@ -260,7 +260,7 @@ section .section-title {
 .section-title h2 {
 	font-size: 2.2em;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
@@ -380,6 +380,11 @@ section hr {
 	text-align: center;
 	padding: 0.5em;
 	font-weight: bold;
+}
+
+.project-item figcaption h3{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.08em;
 }
 
 /* Small breakpoint for the project section */
@@ -638,6 +643,8 @@ in the portfolio section******/
 }
 
 .project-modal .modal-header {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.08em;
 	background-color: #222;
 	color: #fff;
 	padding: 15px;
