@@ -121,6 +121,7 @@ header #my-profile-pic{
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 0.08em;
 }
 
 /* Rules for the Hamburger Diagram starts here */
@@ -559,7 +560,9 @@ in the portfolio section******/
 .connect-msg {
 	width: 100%;
 	padding: 1em;
-	font-size: 1.5em;
+	font-size: 1.8em;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.08em;
 	text-align: center;
 }
 
@@ -598,25 +601,6 @@ in the portfolio section******/
 	/*border-radius: 100%;*/
 }
 
-.fb a,
-.linkedin a {
-	/*background-color: white;*/
-}
-
-.github a {
-	background-color: #00abf1;
-}
-.twitter a{
-	/*background-color: #222;*/
-}
-
-/*.fb a:hover,
-.linkedin a:hover, 
-.twitter a:hover,
-.github a:hover {
-	box-shadow: 0.1em 0.1em 0.3em white;
-}*/ 	
-
 .contact-items img {
 	width: 100%;
 	height: 100%;
@@ -624,10 +608,10 @@ in the portfolio section******/
 }
 
 /* Commented out till the solution for the image is not found */
-/*.contact-items img:hover {
+.contact-items img:hover {
 	position: relative;
 	top: -0.5em;
-}*/
+}
 
 /* Styles for the MODALS for the projects */
 .modal-body {
