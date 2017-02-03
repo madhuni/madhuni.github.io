@@ -48,7 +48,7 @@ hr {
 }
 
 p {
-	
+
 }
 
 /* CSS rules for the "header" starts here */
@@ -135,7 +135,7 @@ header #my-profile-pic{
 .navbar-toggle .fa {
 	border: 0.1em solid lightgray;
 	border-radius: 0.3em;
-	padding: 0.1em 0.3em; 
+	padding: 0.1em 0.3em;
 	cursor: pointer;
 	color: lightgray;
 	font-size: 2.5em;
@@ -421,7 +421,7 @@ section hr {
 	.project-item {
 		width: 100%;
 	}
-	
+
 	.image-container {
 		width: 50%;
 		margin: 0;
@@ -688,7 +688,7 @@ hr {
 		border-top: 0.1em solid white;
 		width: 100%;
 	}
-	
+
 	.navbar-toggle {
 		display: none !important;
 	}
@@ -705,7 +705,7 @@ hr {
 	.nav-menu-items a {
 		display: inline-block;
 	}
-	
+
 	.nav-menu-items a:hover {
 		color: black;
 		font-weight: 500;
@@ -715,7 +715,7 @@ hr {
  	.skill-items {
  		width: 15%;
  	}
-	
+
 	/*#contact-me form {
 		width: 75%;
 	}*/
@@ -725,8 +725,8 @@ hr {
 		height: 5em;
 	}
 
- } 
-	
+ }
+
 /* Code for the Laptop and the big screen starts here*/
 @media screen and (min-width: 1134px) {
 
