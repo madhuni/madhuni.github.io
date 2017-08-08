@@ -174,10 +174,10 @@ header #my-profile-pic{
 	font-size: 3em;
 }
 
-.fa:hover {
+/*.fa:hover {
 	position: relative;
 	top: -0.1em;
-}
+}*/
 
 .fa-facebook {
 	color:#fff;
@@ -363,8 +363,10 @@ section hr {
 	margin: 0 auto;
 	max-width: 30em;
 	overflow: hidden;
-	border-radius: 2em;
+	/*border-radius: 2em;*/
 	border: 1px solid transparent;
+	transition: all .5s ease;
+	/*box-shadow: 10px 10px 10px black;*/
 }
 
 .project-item img {
@@ -376,7 +378,8 @@ section hr {
 
 .project-item .image-container:hover {
 	border: 0.1em solid black;
-	box-shadow: 0 0.1em 0.5em 0.4em black;
+	box-shadow: 0 1px 15px 5px black;
+	/*box-shadow: 10px 10px 10px black;*/
 	cursor: pointer;
 }
 
@@ -613,11 +616,11 @@ in the portfolio section******/
 }
 
 /* Commented out till the solution for the image is not found */
-.contact-items img:hover {
+/*.contact-items img:hover {
 	position: relative;
 	top: -0.5em;
 }
-
+*/
 /* Styles for the MODALS for the projects */
 .modal-body {
 	flex-wrap: wrap;
