@@ -376,12 +376,12 @@ section hr {
 	margin: 0 auto;
 }
 
-.project-item .image-container:hover {
+/* .project-item .image-container:hover {
 	border: 0.1em solid black;
 	box-shadow: 0 1px 15px 5px black;
-	/*box-shadow: 10px 10px 10px black;*/
+	/*box-shadow: 10px 10px 10px black;
 	cursor: pointer;
-}
+}*/
 
 .project-item figcaption {
 	display: block;
@@ -394,6 +394,10 @@ section hr {
 .project-item figcaption h3{
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 0.08em;
+}
+
+.button-container {
+	margin: 10px 0 0;
 }
 
 /* Small breakpoint for the project section */
@@ -642,8 +646,13 @@ in the portfolio section******/
 	padding: 15px;
 }
 
-.project-modal .modal-header .modal-title {
+/*.project-modal .modal-header .modal-title {
 	font-size: 1.8em;
+}*/
+
+.modal-title {
+	font-size: 2.5em;
+	text-align: center;
 }
 
 /* Overwriting the code for <hr> which is affecting due to
