@@ -3,7 +3,8 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	font-size: 10px;
+	font-size: 12px;
+	font-family: 'Dosis', sans-serif;
 }
 
 /* Code for the mobile devices has been started */
@@ -98,7 +99,7 @@ header #my-profile-pic{
 
 .title h1 {
 	margin: 0 0;
-	font-family: 'Acme', sans-serif;
+	/*font-family: 'Acme', sans-serif;*/
 	font-size: 3em;
 	text-align: center;
 	text-transform: uppercase;
@@ -117,7 +118,7 @@ header #my-profile-pic{
 
 .sub-title h4 {
 	font-size: 1.5em;
-	font-family: 'Acme', sans-serif;
+	/*font-family: 'Acme', sans-serif;*/
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -257,6 +258,8 @@ nav {
 /* Fist Rules for the comman classes in all the sections goes below*/
 section {
 	justify-content: center;
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
 }
 
 section .section-title {
@@ -266,7 +269,7 @@ section .section-title {
 .section-title h2 {
 	font-size: 2.2em;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
@@ -306,7 +309,7 @@ section hr {
 
 .section-content .about-me-content {
 	width: 100%;
-	font-size: 1.4em;
+	font-size: 1.8em;
 	line-height: 1.5;
 	padding: 0.5em;
 	text-align: justify;
@@ -392,7 +395,7 @@ section hr {
 }
 
 .project-item figcaption h3{
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	letter-spacing: 0.08em;
 }
 
@@ -453,9 +456,9 @@ section hr {
 	}
 
 	.project-detail {
-		font-size: 1.4em;
+		font-size: 1.5em;
 		font-weight: normal;
-		font-style: italic;
+		/*font-style: italic;*/
 		line-height: 1.6;
 	}
 }
@@ -502,7 +505,7 @@ in the portfolio section******/
 	padding: 0.5em;
 	text-align: center;
 	display: block;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 
@@ -573,7 +576,7 @@ in the portfolio section******/
 	width: 100%;
 	padding: 1em;
 	font-size: 1.8em;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	letter-spacing: 0.08em;
 	text-align: center;
 }
@@ -646,7 +649,7 @@ in the portfolio section******/
 }
 
 .project-modal .modal-header {
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	letter-spacing: 0.08em;
 	background-color: #222;
 	color: #fff;
