@@ -313,6 +313,9 @@ section hr {
 	line-height: 1.5;
 	padding: 0.5em;
 	text-align: justify;
+	opacity: 0;
+	transform: scale(1.15);
+	transition: all 1.5s ease-out;
 }
 
 .web-image {
@@ -359,7 +362,15 @@ section hr {
 	margin-bottom: 3em;
 	min-height: 0.1em;
 	justify-content: center;
+	opacity: 0;
+	/*transform: scale(1.15);*/
+	transition: opacity 1.5s ease-out;
 	/*align-items: center;*/
+}
+
+.reveal-element {
+	opacity: 1 !important;
+	transform: scale(1) !important;
 }
 
 .image-container {
@@ -430,6 +441,13 @@ section hr {
 
 	.project-item {
 		width: 100%;
+		transform: scale(1.15) !important;
+		transition: all 1.5s ease-out;
+	}
+
+	.reveal-element {
+		opacity: 1 !important;
+		transform: scale(1) !important;
 	}
 
 	.image-container {
@@ -490,6 +508,9 @@ in the portfolio section******/
 	padding: 0.5em;
 	flex-direction: row;
 	justify-content: center;
+	transform: scale(1.15);
+	opacity: 0;
+	transition: all 1.5s ease-out;
 }
 
 .image-icon {
@@ -516,6 +537,9 @@ in the portfolio section******/
 	padding: 1.6em;
 	width: 100%;
 	max-width: 58em;
+	opacity: 0;
+	transform: scale(1.15);
+	transition: all 1.5s ease-out;
 }
 
 /* Minor breakpoint for the "contact-me" section */
@@ -596,6 +620,9 @@ in the portfolio section******/
 .contact-links .contact-items {
 	display: inline-block;
 	padding: 0.5em 1.5em;
+	opacity: 0;
+	transform: scale(1.15);
+	transition: all 1.5s ease-out;
 	/*margin-bottom: 0.5em;*/
 }
 
