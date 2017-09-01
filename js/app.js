@@ -32,4 +32,4 @@ new RevealOnScroll($(".project-item"), "85%");
 new RevealOnScroll($(".about-me-content"), "85%");
 new RevealOnScroll($(".skill-items"), "85%");
 new RevealOnScroll($(".contact-items"), "85%");
-new RevealOnScroll($('form'), "90%")
+new RevealOnScroll($('form'), "90%");
